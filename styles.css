@@ -1,0 +1,115 @@
+#top-header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: auto;
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	background-image: url("top-header-bg.png");
+	background-repeat: repeat-x;
+	background-color: #2D2F2F;
+	text-align: center;
+	font-family: 'PT Sans',"Trebuchet MS",Helvetica,sans-serif;
+	font-size: 10pt;
+}
+
+img.logo {
+	position: relative;
+	top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+img.centered {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+ul#top-header-urls li {
+	display: inline;
+	margin: 0px 15px 0px 15px;
+}
+
+#top-header-urls a:link {
+	color: #FFFFFF;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#top-header-urls a:visited {
+	color: #FFFFFF;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#top-header-urls a:active {
+	color: #FFFFFF;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#top-header-urls a:hover {
+	color: #FFC285;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#footer {color: #FFFFFF;
+	position: fixed;
+	clear: both;
+	bottom: 0px;
+	left: 0px;
+	height: 20px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #424242;
+	text-align: center;
+	font-family: 'PT Sans',"Trebuchet MS",Helvetica,sans-serif;
+	font-size: 10pt;
+}
+
+#content {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px 20px 20px 20px;
+	top: 60px;
+	width: 70%;
+	height: auto;
+	background-color: #FFC285;
+	text-align: center;
+	font-family: 'PT Sans',"Trebuchet MS",Helvetica,sans-serif;
+	font-size: 10pt;
+}
+
+body {
+	background-color: #FF9933;
+}
+
+#content a:link {
+	color: #353535;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+#content a:visited {
+	color: #353535;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+#content a:hover {
+	color: #353535;
+    text-decoration: underline;
+    font-size: 12pt;
+}
+
+#content a:active {
+	color: #353535;
+    text-decoration: underline;
+    font-size: 12pt;
+}
